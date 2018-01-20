@@ -1,3 +1,385 @@
-body{
-    margin: 
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+button,
+fieldset,
+form,
+input,
+label,
+legend,
+textarea,
+select,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+a,
+b,
+i,
+u,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    line-height: inherit;
+    vertical-align: baseline;
+    background: none;
+    white-space: normal;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    height: 768px;
+    background: url(../img/backgr.png) no-repeat;
+    position: relative;
+}
+
+header::after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(24, 19, 62, 0.76);
+}
+
+header * {
+    position: relative;
+    z-index: 1;
+}
+
+header nav {
+    width: 570px;
+    height: auto;
+    margin: 0 auto;
+}
+
+header nav ul {
+    padding-top: 50px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 41px;
+}
+
+header nav ul li:first-child {
+    margin-left: 0;
+}
+
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: rgb(219, 149, 74);
+}
+
+header h1 {
+    font-size: 61px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+header div {
+    margin-top: 200px;
+}
+
+header div p {
+    text-transform: uppercase;
+    color: #db954a;
+    text-align: center;
+    box-shadow: 0px 5px 6px -3px rgba(219, 149, 74, .7);
+    width: 80px;
+    margin: auto;
+}
+
+header div p:last-child {
+    text-transform: none;
+    color: #fff;
+    letter-spacing: 5px;
+    box-shadow: none;
+    width: auto;
+}
+section.post1{text-align: center;}
+.post {
+    display: inline-block;
+width: 32vw; 
+    
+   
+
+}
+
+.img_wrap1 {
+width: auto; 
+   margin: 10px;
+    margin-left: 0px; 
+    
+    
+}
+
+.img1{width: 32vw;
+    
+}
+
+.section_wrap{
+    
+   
+}
+
+
+section div p {
+    font-family: verdana;
+}
+
+.head {
+    color: #db954a;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+section div p {
+    text-transform: uppercase;
+}
+
+.footer {
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.content_header {
+    text-align: center;
+    font-family: verdana;
+}
+
+h3 {
+    text-transform: uppercase;
+    width: auto;
+    font-size: 61px;
+    letter-spacing: 5px;
+    color: #db954a;
+    margin: auto;
+    box-shadow: 0px 5px 6px -3px rgba(219, 149, 74, .7);
+}
+
+h3: {
+    text-transform: none;
+    color: #fff;
+    letter-spacing: 5px;
+    box-shadow: none;
+    width: auto;
+}
+
+.sub_head {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 31px;
+}
+
+section p {
+    text-align: center;
+    margin: 0 90px;
+    margin-right: 1;
+    margin-top: 20px;
+  
+}
+.content_header{
+    margin-top: 100px;
+}
+
+
+
+.section_wrap {
+
+    text-align: center;   
+ }
+
+.img_wrap {
+    display: inline-block;
+    width: 19vw;  
+    margin-top: 20px;
+    
+
+
+}
+
+.img_wrap>img {
+    width: 100%;
+}
+
+   footer{
+       position: relative;
+       height: 338px;
+       width: 100%;
+    background: url(../img/cherno_sinij_cvet_menu.png)
+}
+.info{
+    width: 47%;
+    float: left;
+    text-align: center;
+}
+.contact{
+    float: right;
+    width: 47%;
+}
+footer h2{
+    font-size: 40px;
+    color: white;
+}
+.footer_text{
+    margin-top: -16px;
+}
+.pharagraf{
+    color: #db954a;
+    background: url(../img/shadow.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 150px 4px;
+    font-family: verdana;
+    text-transform: uppercase;
+    font-size: 11px;
+    margin-top: -4px;
+   
+    
+    
+    
+}
+.contact_with_me a{
+    text-decoration: none;
+    color: #808080;
+    
+    letter-spacing: px;
+    
+    
+}
+.pharagraf_wrap{
+    
+    font-family: verdana;
+    margin-top: -9px;
+    font-size: 13px;
+    color: white;
+    
+    
+}
+.footer_text_wrap{
+    color: #808080;
+}
+footer img{
+    width: 5px;
+    height: 3px;
+}
+
+textarea{
+    resize: none;
+    border: none;
+    background: #5F9EA0;
+    border-radius: 5px;
+    margin-left: 30px;
+    height: 40px;
+}
+
+.inputs_wrap{
+    float: left;
+    
+}
+input{
+    
+    border: none;
+    background: #5F9EA0;
+    border-radius: 4px;
+}
+button{
+    color: white;
+    background: orange;
+    border-radius: 7px;
+    border: none;
+    margin-left: -165px;
+    letter-spacing: 1px;
+    margin-top: 2px;
+    height: 25px;
+    text-transform: uppercase;
+    font-family: verdana;
+    font-weight: bold;
+    
+}
+footer p{
+    color: #808080
 }
